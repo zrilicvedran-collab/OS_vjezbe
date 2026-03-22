@@ -1,0 +1,44 @@
+Zadaća 1.            Zadaća 2.
+
+pwd                  mkdir -p vjezba2
+                     touch vjezba2/file.txt
+ls                   cp vjezba2/file.txt vjezba2/file_copy.txt
+mkdir OS_1vjezba     ls -l vjezba2
+cd OS_1vjezba        rm vjezba2/file.txt
+touch README.txt      cd..
+                     rmdir vjezba2
+
+Zadatak 3.
+mkdir-p vjezba3/backup
+touch vjezba3/notes.txt 
+touch vjezba3/todo.txt
+touch vjezba3/script.sh
+cp -r vjezba3 backup
+rm script.sh
+mv backup USER
+
+
+Zadatak 4.
+mkdir vjezba4
+mkdir vjezba4/subfolder
+touch vjezba4/$HOSTNAME
+mv vjezba4/$HOSTNAME vjezba4/$USER
+mv vjezba4/$USER vjezba4/subfolder/
+rm USER
+
+Zadatak 5.
+
+touch vjezba5/$RANDOM.num
+ls vjezba5
+cp vjezba5/32684.num vjezba5/backup.num
+mkdir vjezba5/backup
+mv vjezba5/backup backup
+
+Zadatak 6.
+
+mkdir /mnt/c/Users/Vedran/Documents/vjezba6
+touch OS_script.md notes.txt && mkdir scripts
+mv OS_script.md scripts
+mv notes.txt todo.txt
+cd scripts 
+rm ../todo.txt 
